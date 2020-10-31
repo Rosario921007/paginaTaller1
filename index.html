@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+ <html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Caompatible" content="ie=edge">
+  	<title>fondo</title> 
+     
+     
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet"  href="css/index.css">
+
+    <style>
+      body {
+      background-image:url(fondo.jpg);
+      background-size: 1325px 1825px;
+      }
+
+    </style>
+    
+    
+      
+  </head>
+
+   <body> <div class="container">
+    <div class="row">
+      <div class="col s12"> 
+        <h1 class="center-align titulo">Tienda de Cosmeticos</h1>
+        <div class="carousel center-align">
+          
+          <div class="carousel-item">
+            <h2 class="producto">labial PON</h2>
+            <div class="linea-division"></div>
+            <p class="desc">Rojo de larga duracón</p>
+            <img src="img/carousel1.jpg" alt="">
+            
+          </div>
+          
+          <div class="carousel-item">
+            <h2 class="producto">Labial MC</h2>
+            <div class="linea-division"></div>
+            <p class="desc">Set Rojos</p>
+            <img src="img/carousel2.jpg" alt="">
+            
+          </div>
+
+          <div class="carousel-item">
+            <h2 class="producto">Sombra PON</h2>
+            <div class="linea-division"></div>
+            <p class="desc">Set Color Neutro</p>
+            <img src="img/carousel3.jpg" alt="">
+            
+          </div>
+
+         
+          <div class="carousel-item">
+            <h2 class="producto">Sombra MC</h2>
+            <div class="linea-division"></div>
+            <p class="desc">Color Verano</p>
+            <img src="img/carousel4.jpg" alt="">
+            
+          </div>
+
+
+          <div class="carousel-item">
+            <h2 class="producto">Base PON</h2>
+            <div class="linea-division"></div>
+            <p class="desc">Polvo Neutro</p>
+            <img src="img/carousel5.png" alt="">
+            
+          </div>
+
+
+          <div class="carousel-item">
+            <h2 class="producto">Base MC</h2>
+            <div class="linea-division"></div>
+            <p class="desc">Liquido Neutro</p>
+            <img src="img/carousel6.png" alt="">
+            
+          </div>
+
+            
+            <div class="carousel-item">
+            <h2 class="producto">Brochas PON</h2>
+            <div class="linea-division"></div>
+            <p class="desc">Set de Dos</p>
+            <img src="img/carousel7.jpg" alt="">
+            
+          </div>
+
+            <div class="carousel-item">
+            <h2 class="producto">Brochas MC</h2>
+            <div class="linea-division"></div>
+            <p class="desc">Set</p>
+            <img src="img/carousel8.jpg" alt="">
+            
+          </div>
+
+          
+
+            <div class="carousel-item">
+            <h2 class="producto">Barniz POM</h2>
+            <div class="linea-division"></div>
+            <p class="desc">Gama Invierno</p>
+            <img src="img/carousel9.png" alt="">
+            
+          </div>
+
+
+
+            <div class="carousel-item">
+            <h2 class="producto">Barniz MC</h2>
+            <div class="linea-division"></div>
+            <p class="desc">Gama Verano</p>
+            <img src="img/carousel10.png" alt="">
+            
+          </div>
+        </div>
+
+
+      </div>
+
+
+       </div>
+      </div>
+
+
+      <br/> <img src="img/imagen2.png" alt=""whidth="700" height="400" >
+        <br/>
+
+
+
+      <div> 
+  <button onclick="agregarContacto (); "> agregar producto</button>
+  </div>
+  <fieldset style="border: 3px deeppink outset">
+    <legend class="desctablatitulo" align="center">PRODUCTO</legend>
+    
+
+    <table>
+      <thead>
+        <tr class="desctablatitulo">
+        <th>Nombre</th>
+        <th>Descripcion</th>
+        <th>Precio</th>
+      </tr>
+      </thead>
+      <tbody id="divDestino">
+        
+      </tbody>
+    </table>
+
+    <table class="tabla">
+
+  
+
+  <tr>
+    <td >Labial POM</td>
+    <td >Rojo Permanente</td>
+    <td>130</td>
+ </tr>
+
+
+  <tr>
+    <td>Labial MC</td>
+    <td>Set de Rojos</td>
+    <td>300</td>
+ </tr>
+
+
+  <tr >
+    <td>Sombra POM</td>
+    <td>Set Color Neutro</td>
+    <td>500</td>
+ </tr>
+
+ <tr >
+    <td>Sombra MC </td>
+    <td>Color Verano</td>
+    <td>200</td>
+ </tr>
+
+ <tr >
+    <td>Base POM</td>
+    <td>Polvo Neutro</td>
+    <td>230</td>
+ </tr>
+
+  <tr >
+    <td>Base MC</td>
+    <td>Liquido Neutro</td>
+    <td>230</td>
+ </tr>
+
+  <tr >
+    <td>Brochas POM</td>
+    <td>Set de dos</td>
+    <td>100</td>
+ </tr>
+
+  <tr >
+    <td>Brochas MC</td>
+    <td>Set</td>
+    <td>300</td>
+ </tr>
+
+   <tr>
+    <td>Barniz POM</td>
+    <td>Set Invierno</td>
+    <td>300</td>
+ </tr>
+
+   <tr >
+    <td>Barniz MC</td>
+    <td>Set verano</td>
+    <td>1000</td>
+ </tr>
+
+  
+</table>
+
+  </fieldset>
+
+  <form method="post" name="formulario">
+Labial POM <input type="radio" name="input_radio" checked value="1"><br>
+
+Labial MC <input type="radio" name="input_radio" value="2"><br>
+Sombra POM <input type="radio" name="imput_radio" value="3"><br>
+Sombra MC <input type="radio" name="input_radio" value="1"><br>
+Base POM <input type="radio" name="input_radio" value="4"><br>
+Base MC <input type="radio" name="input_radio" value="1"><br>
+Brochas POM <input type="radio" name="input_radio" value="5"><br>
+Brochas MC <input type="radio" name="input_radio" value="6"><br>
+Barniz POM <input type="radio" name="input_radio" value="7"><br>
+Barniz MC <input type="radio" name="input_radio" value="8"><br><br><br>
+<button type="button" id="btn-radio"> la compra</button>
+
+
+comprar <input type="checkbox" name="input_checkbox"><br>
+<button type="button" id="btn-checkbox">seleckione la compra</button>
+</form>
+
+
+
+
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- JS Main -->
+    <script src="js/index.js"></script>
+
+
+
+
+
+
+
+   </body>
+</html>
